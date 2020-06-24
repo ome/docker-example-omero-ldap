@@ -27,7 +27,7 @@ services:
       CONFIG_omero_ldap_base: "dc=openmicroscopy,dc=org"
       CONFIG_omero_ldap_group__filter: "(objectClass=groupOfUniqueNames)"
       CONFIG_omero_ldap_group__mapping: "name=cn"
-      CONFIG_omero_ldap_new__user__group: "MyData"
+      CONFIG_omero_ldap_new__user__group: ":query:(uniqueMember=@{dn})"
       CONFIG_omero_ldap_new__user__group_owner: "(owner=@{dn})"
       CONFIG_omero_ldap_password: "secret"
       CONFIG_omero_ldap_sync__on__login: "true"
