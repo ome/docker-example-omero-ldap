@@ -1,6 +1,6 @@
 # OMERO.server and OMERO.web with LDAP (docker-compose)
 
-[![Actions Status](https://github.com/ome/docker-example-omero/workflows/Build/badge.svg)](https://github.com/ome/docker-example-omero/actions)
+[![Actions Status](https://github.com/ome/docker-example-omero-ldap/workflows/Build/badge.svg)](https://github.com/ome/docker-example-omero-ldap/actions)
 
 This is an example of running OMERO.server and OMERO.web in Docker
 along with an ApacheDS container for LDAP authentication.
