@@ -51,7 +51,7 @@ givenName: X.
 
 ## Testing with omero-ldaptool
 
-[omero-ldap](https://github.com/glencoesoftware/omero-ldaptool) provides a way to check if your
+[omero-ldaptool](https://github.com/glencoesoftware/omero-ldaptool) provides a way to check if your
 OMERO configuration is talking to LDAP correctly.
 
 Then from the `omeroserver` container, download the configuration:
